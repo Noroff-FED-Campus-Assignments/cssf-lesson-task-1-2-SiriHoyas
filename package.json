@@ -1,0 +1,25 @@
+{
+  "name": "cssf-lesson-task-1-2-sirihoyas",
+  "version": "1.0.0",
+  "description": "## SASS Lesson Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss:css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noroff-FED-Campus-Assignments/cssf-lesson-task-1-2-SiriHoyas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noroff-FED-Campus-Assignments/cssf-lesson-task-1-2-SiriHoyas/issues"
+  },
+  "homepage": "https://github.com/Noroff-FED-Campus-Assignments/cssf-lesson-task-1-2-SiriHoyas#readme",
+  "devDependencies": {
+    "sass": "^1.54.5",
+    "live-server": "^1.2.2"
+  }
+}

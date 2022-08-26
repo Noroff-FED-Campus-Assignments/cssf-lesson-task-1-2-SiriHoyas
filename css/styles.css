@@ -1,0 +1,42 @@
+nav {
+  background-color: rgb(43, 43, 90);
+  padding: 2em;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+nav li {
+  margin-right: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(93, 93, 181);
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+main h2 {
+  margin-bottom: 5rem;
+}
+main a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+  background-color: rgb(43, 43, 90);
+}
+main a:hover {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */

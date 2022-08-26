@@ -1,0 +1,25 @@
+@mixin flexCenter($direction) {
+        display: flex;
+        flex-direction: $direction;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+}
+
+nav {
+    
+    background-color: $primary-color;
+    padding: 2em;
+    ul {
+        @include flexCenter(row);
+        color: $text-color;
+        list-style-type: none;
+        justify-content: flex-end;
+    }
+    
+    li {
+        margin-right: 1rem;
+    }
+  
+
+}
